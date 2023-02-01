@@ -9,4 +9,4 @@ int tribonacci(int n){
         c = sum;
     }
     return sum;
-}; 
+}
