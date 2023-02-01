@@ -27,6 +27,6 @@ class Solution {
           dp[i] = Math.max(dp[i], dp[j] + players[i].score);
     }
 
-    return Arrays.stream(dp).max().getAsInt();
+    return Arrays.stream(dp).max().getAsInt()
   }
 }
