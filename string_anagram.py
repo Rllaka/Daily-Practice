@@ -1,5 +1,5 @@
 class Solution:
-    def findAnagrams(self, s: str, p: str) -> List[int];
+    def findAnagrams(self, s: str, p: str) -> List[int]:
         counterP, pLen = [0] * 26, len(p)
         for c in p:
             counterP[ord(c)-97] += 1
